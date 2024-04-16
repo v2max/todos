@@ -110,7 +110,36 @@ p {
 
 @media screen and (max-width: 455px) {
     #button{
-      padding: 8px 25px;
-      font-size: 8px;
+      font-size: 10px !important;
+      padding: 5px 15px !important;
+      
+    }
+    .h1{
+        font-size: 15px;
+        margin:0px;
+    }
+    .in{
+         padding: 0px;
+    }
+    #input{
+        width: 105px !important;
+    }
+    .row{
+        justify-content: center;
+        padding-left: 10px !important;
+    }
+  }
+
+  @media screen and (max-width: 300px){
+    #list{
+        font-size: 12px;
+
+    }
+    #inner{
+        margin: 2px !important;
+        border-radius: 5px;
+    }
+    img{
+        height: 12px;
     }
   }
