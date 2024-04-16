@@ -33,7 +33,7 @@ body{
         background: #edeef0;
         border-radius: 30px;
         padding-left: 20px;
-        margin-bottom: 25px;
+        
         flex-wrap: wrap;
     }
 
@@ -41,6 +41,7 @@ body{
         display: flex;
         padding: 40px;
         justify-content: center;
+        margin-bottom: 25px;
     }
 
 .row #input{
@@ -111,7 +112,7 @@ p {
 @media screen and (max-width: 455px) {
     #button{
       font-size: 10px !important;
-      padding: 5px 15px !important;
+      padding: 5px 25px !important;
       
     }
     .h1{
@@ -120,9 +121,6 @@ p {
     }
     .in{
          padding: 0px;
-    }
-    #input{
-        width: 105px !important;
     }
     .row{
         justify-content: center;
